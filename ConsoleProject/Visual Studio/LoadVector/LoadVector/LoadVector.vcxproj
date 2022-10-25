@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataOfLipids.cpp" />
     <ClCompile Include="LoadVector.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataOfLipids.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

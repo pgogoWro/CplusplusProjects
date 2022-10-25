@@ -18,5 +18,13 @@
     <ClCompile Include="LoadVector.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="DataOfLipids.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataOfLipids.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

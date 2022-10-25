@@ -1,2 +1,9 @@
-﻿  LoadVector.cpp
-  LoadVector.vcxproj -> E:\Repos\CplusplusProjects\ConsoleProject\Visual Studio\LoadVector\LoadVector\x64\Debug\LoadVector.exe
+﻿  DataOfLipids.cpp
+  LoadVector.cpp
+  Generating Code...
+DataOfLipids.obj : error LNK2001: unresolved external symbol "public: static double DataOfLipids::column1" (?column1@DataOfLipids@@2NA)
+DataOfLipids.obj : error LNK2001: unresolved external symbol "public: static double DataOfLipids::column2" (?column2@DataOfLipids@@2NA)
+LoadVector.obj : error LNK2019: unresolved external symbol "public: static void __cdecl DataOfLipids::loadDataX(void)" (?loadDataX@DataOfLipids@@SAXXZ) referenced in function main
+LoadVector.obj : error LNK2019: unresolved external symbol "public: static void __cdecl DataOfLipids::loadDataY(void)" (?loadDataY@DataOfLipids@@SAXXZ) referenced in function main
+LoadVector.obj : error LNK2019: unresolved external symbol "public: static void __cdecl DataOfLipids::showDataY(void)" (?showDataY@DataOfLipids@@SAXXZ) referenced in function main
+E:\Repos\CplusplusProjects\ConsoleProject\Visual Studio\LoadVector\LoadVector\x64\Debug\LoadVector.exe : fatal error LNK1120: 5 unresolved externals
