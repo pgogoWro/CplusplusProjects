@@ -4,17 +4,20 @@
 #include <vector>
 #include <iterator>
 
-class DataOfLipids
+class DataOfLipids 
 {
 private:
 
 public:
-	static double column1, column2;
+	
+
+	void loadData();
 
 	static void loadDataX();
 	static void loadDataY();
-	static void showDataX();
-	static void showDataY();
+	void showDataX(const std::vector<double>& dX);
+	void showDataY(const std::vector<double>& dY);
+
 
 };
 
