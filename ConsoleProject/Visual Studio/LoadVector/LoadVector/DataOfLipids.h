@@ -7,16 +7,15 @@
 class DataOfLipids 
 {
 private:
-
+	std::vector<double> x;
+	std::vector<double> y;
 public:
-	
 
-	void loadData();
+	void loadX();
+	void loadY();
 
-	static void loadDataX();
-	static void loadDataY();
-	void showDataX(const std::vector<double>& dX);
-	void showDataY(const std::vector<double>& dY);
+	std::vector<double>& getX();
+	std::vector<double>& getY();
 
 
 };
